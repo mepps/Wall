@@ -1,4 +1,6 @@
 <?php
+
+//this is a comment
 	session_start();
 	if (!isset($_SESSION['user']['email']))
 		header('location:index.php');
