@@ -1,0 +1,67 @@
+*
+{
+	font-family: helvetica;
+}
+#container
+{
+	width: 800px;
+	margin: 0px auto;
+}
+#header
+{
+	text-align: center;
+	background-color: #acd1e8;
+	color: White;
+	border: 10px solid Gray;
+}
+
+
+
+input#message_post
+{
+	height: 40px;
+	width: 600px;
+	font-size: 20px;
+}
+
+
+button#log_out a 
+{
+	text-decoration: none;
+}
+.wall_post
+{
+	color: white;
+	background-color: #acd1e8;
+
+}
+.post_info
+{
+	background-color: Gray;
+	padding: 5px;
+
+}
+.post_message
+{
+}
+.comments
+{
+}
+.comment
+{
+}
+.delete
+{
+}
+
+.action-button{
+	border: 1px solid Gray;
+	border-radius: 3px;
+	background: linear-gradient(to bottom, gray 0%,#596a72 100%); /* W3C */
+	color: white;
+}
+
+input.action-button:hover{
+	background-color: LightGray;
+}
+
