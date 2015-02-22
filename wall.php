@@ -60,7 +60,7 @@ foreach($posts as $post)
 <br />
 <form form action="wall_process.php" method="post" />
 <input type="hidden" name="action" value="log_off" />
-<input type="submit" name="log_off" value="Log Off" />
+<input type="submit" name="log_off" class="action-button" value="Log Off" />
 </form>
 </div><!--closes wall posts-->
 </div><!--closes container-->
