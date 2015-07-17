@@ -1,4 +1,6 @@
 <?php
+
+//edit to wall
 	session_start();
 	require_once("include/connection.php");
 	$query = "SELECT * FROM users WHERE email = '{$_SESSION['user']['email']}';";
